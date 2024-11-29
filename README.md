@@ -1,6 +1,6 @@
 <h1 align="center">Hi 👋, I'm Minh Cao</h1>
 <h3 align="center">A passionate ML/AI engineer from Viet Nam</h3>
-<img align="right", alt="Coding", Width="400", src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaXR6MjhqdGE0eTlyZWt2NWY3M2VkdTU2eHQzcjk4bGp0aWxxaGxzdyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/2IudUHdI075HL02Pkk/giphy.gif">
+<img align="right", alt="Coding", Width="400", src="https://media.tenor.com/GfSX-u7VGM4AAAAM/coding.gif">
 
 - 💼 I’m currently study **Computer Science at Swinburne University of Technology and major in Artificial Intelligence**
 
