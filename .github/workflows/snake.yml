@@ -1,34 +1,38 @@
-name: Generate Snake
+name: Generate Contribution Snake
 
 on:
   schedule:
-    - cron: "0 0 * * *"
-
+    # Rebuild the snake every 12 hours
+    - cron: "0 */12 * * *"
+  # Allow manual runs from the Actions tab
   workflow_dispatch:
-
+  # Rebuild on every push to main
   push:
     branches:
       - main
 
+permissions:
+  contents: write
+
 jobs:
   generate:
-    permissions:
-      contents: write
-
     runs-on: ubuntu-latest
-
+    timeout-minutes: 10
     steps:
-      - uses: Platane/snk/svg-only@v3
+      - name: Generate snake SVGs
+        uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
+          # github_token defaults to the workflow GITHUB_TOKEN, which sees
+          # the public contribution graph for this user.
 
-      - name: Push snake to output branch
+      - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
+          target_branch: output
           build_dir: dist
-          branch: output
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
