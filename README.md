@@ -34,8 +34,6 @@ I enjoy working across the full AI lifecycle, from **model development and evalu
 
 My main focus is building **production-ready AI systems** that solve real-world problems, especially real-time computer vision systems, AI agents, model serving, and scalable inference pipelines.
 
-🎓 **Bachelor of Computer Science, Major in Artificial Intelligence @ Swinburne University of Technology** · **GPA 3.4/4.0 (Distinction)**
-
 🌱 Currently going deeper into **AI system design, Agentic AI, MLOps, model serving, distributed inference, and production AI infrastructure**.
 
 📩 **caominh418@gmail.com**
