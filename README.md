@@ -141,7 +141,16 @@ Engineered a real-time multi-camera inference architecture using **NVIDIA Triton
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ItsMeBlah&bg_color=0d1117&color=6e9fef&line=6e9fef&point=ffffff&area=true&hide_border=true" alt="activity graph" width="100%"/>
+  <img
+    src="https://github-readme-stats.vercel.app/api?username=ItsMeBlah&show_icons=true&theme=github_dark&hide_border=true&rank_icon=github"
+    alt="Minh Cao GitHub Stats"
+    height="170"
+  />
+  <img
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=ItsMeBlah&layout=compact&theme=github_dark&hide_border=true"
+    alt="Minh Cao Top Languages"
+    height="170"
+  />
 </p>
 
 <!-- ===== FOOTER WAVE ===== -->
